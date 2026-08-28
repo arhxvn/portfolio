@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Arham Khan</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0c0d0e 0%, #141619 100%);
+      color: #e8eaed;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #8b929d;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .portfolio-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      background: #cc785c;
+      color: #0c0d0e;
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: #cc785c;
+      border: 2px solid #cc785c;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: #cc785c;
+      margin: 20px auto 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Arham Khan</h1>
+    <p>Choose your portfolio version below</p>
+    
+    <div class="divider"></div>
+
+    <div class="portfolio-links">
+      <a href="index.html" class="btn">Portfolio V1<br><small style="font-size: 0.75rem;">Creative Direction</small></a>
+      <a href="v2.html" class="btn btn-secondary">Portfolio V2<br><small style="font-size: 0.75rem;">Content & Social</small></a>
+    </div>
+  </div>
+
+</body>
+</html>
